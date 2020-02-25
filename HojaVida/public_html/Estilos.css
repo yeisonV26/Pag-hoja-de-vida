@@ -1,0 +1,143 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18-feb-2020, 17:10:39
+    Author     : Yeison Vela ID:597335
+*/
+
+*{
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  background-attachment: fixed;
+  padding: 7px;
+  margin-left: 15%;
+  margin-right: 15%;
+  
+}
+
+fieldset{
+  
+  border: solid 3px black;
+  border-radius: 25px;
+  margin: 20px;
+}
+
+legend{
+
+  border: solid 4px gray;
+  border-radius: 10px;
+  margin: 10px;
+
+}
+
+span{
+  font-family: fantasy;
+}
+
+
+h1{
+    
+  text-align: center;
+  letter-spacing: 7px;
+  font-size: 2.5em;
+  font-weight: bolder;
+    
+}
+
+
+
+img {
+  border-radius: 50px;
+  border: solid 2px black;
+  margin: 20px;
+}
+
+
+h2{
+  color: black;
+  text-align: center;
+  font-size: xx-large;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.redes{
+
+  position: fixed;
+  left: 0;
+  top: 200px;
+  z-index: 2000;
+}
+
+.redes ul{
+  list-style: none;
+}
+
+.redes ul li a{
+  display: inline-block;
+  color: white;
+  background: black;
+  text-decoration: none;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.fa-facebook {
+  background: #4376fd;
+  padding: 15px;
+  width: 65px;
+}
+/* Establecemos los colores de cada red social, aprovechando su class */
+ .fa-twitter {
+  background: #00abf0;
+  padding: 15px;
+  width: 65px;
+}
+
+.fa-google-plus-g {
+  background: #d95232;
+  padding: 15px;
+  width: 65px;
+}
+
+.fa-pinterest-p {
+  background: #ae181f;
+  padding: 15px;
+  width: 65px;
+}
+
+.fa-instagram {
+  background: #792174;
+  padding: 15px;
+  width: 65px;
+}
+
+.fa-home {
+background: #5ad738;
+padding: 15px;
+  width: 65px;
+}
+
+.redes ul li a:hover {
+  background: white; /* Cambiamos el fondo cuando el usuario pase el mouse */
+  padding: 10px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+  width: 65px;
+}
